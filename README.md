@@ -52,7 +52,7 @@ Please ⭐ star this repository to get notified when the release is published.
 For questions or collaboration requests, feel free to reach out to:  
 - Mohammad Sadegh Eshaghi: eshaghi.khanghah@iop.uni-hannover.de
 - Navid Valizadeh: valizadeh@iop.uni-hannover.de
-- Navid Valizadeh: zhuang@iop.uni-hannover.de
+- Xiaoying Zhuang: zhuang@iop.uni-hannover.de
 
 ---
 
