@@ -12,7 +12,7 @@ This repository contains the code and data for the paper:
 
 Interfacial dynamics play a central role in many physical systems, such as phase transitions, microstructure evolution, and thin-film growth. These problems are modeled by stiff, nonlinear, time-dependent PDEs, which are challenging to solve, especially over long time horizons.
 
-We propose the **Multi-Head Neural Operator (MHNO)** — a neural operator architecture designed to capture **PDEs with long temporal dynamics**. MHNO combines time-step-specific projection operators and explicit temporal message passing, enabling the accurate and efficient prediction of full-time evolutions in a single forward pass.
+We propose the **Multi-Head Neural Operator (MHNO)**, a neural operator architecture designed to capture **PDEs with long temporal dynamics**. MHNO combines time-step-specific projection operators and explicit temporal message passing, enabling the accurate and efficient prediction of full-time evolutions in a single forward pass.
 
 We validate MHNO on a wide range of phase field models, including:
 - Antiphase boundary motion
