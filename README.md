@@ -8,6 +8,13 @@ This repository contains the code and data for the paper:
 
 ---
 
+## 📢 Availability
+
+🔒 **The code and data will be made publicly available after the journal review process is complete.**  
+Please ⭐ star this repository to get notified when the release is published.
+
+---
+
 ## 🧠 Overview
 
 Interfacial dynamics play a central role in many physical systems, such as phase transitions, microstructure evolution, and thin-film growth. These problems are modeled by stiff, nonlinear, time-dependent PDEs, which are challenging to solve, especially over long time horizons.
@@ -37,13 +44,6 @@ We validate MHNO on a wide range of phase field models, including:
 - **post\_processing.py** – Metrics calculation and visualization  
 - **utilities.py** – Helper functions 
 
-
----
-
-## 📢 Availability
-
-🔒 **The code and data will be made publicly available after the journal review process is complete.**  
-Please ⭐ star this repository to get notified when the release is published.
 
 ---
 
