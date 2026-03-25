@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69f06a2e-e075-4f1f-8925-28211e19f97d" name="Changes" comment="added trained model for CH">
+      <change afterPath="$PROJECT_DIR$/configs/config_Navier_1e3_FNO3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config_Navier_1e3_TNO2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config_Navier_1e5_FNO3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config_Navier_1e5_TNO2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2p11NySvsgjZ8eu9d53SI84567l" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AC2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AC2D_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AC2D_Net2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AC2D_Net2D_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AC2D_Net2D_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AC2D_Net2D_3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.AC2D_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CH2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CH2DNL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MBE2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PFC2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RunScript0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RunScript1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RunScript2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RunScript3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SH2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.THFNO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_AC2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_AC2D_FNO2d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_AC2D_FNO3d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_CH2DNL_FNO3d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_CH2DNL_TNO2d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_CH2D_TNO2d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config_MBE2D_TNO2d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fourier_3d.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.networks.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.post_processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/scratch/zore8312/PycharmProjects/PhaseFieldNet/configs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs" />
+      <recent name="$PROJECT_DIR$/AC2Dtest/models" />
+      <recent name="$PROJECT_DIR$/Archive_Code/AC2D" />
+      <recent name="$PROJECT_DIR$/Archive_Code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.RunScript3">
+    <configuration name="RunScript0" type="PythonConfigurationType" factoryName="Python">
+      <module name="PhaseFieldNet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="pytorch" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunScript1" type="PythonConfigurationType" factoryName="Python">
+      <module name="PhaseFieldNet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="pytorch" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunScript2" type="PythonConfigurationType" factoryName="Python">
+      <module name="PhaseFieldNet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="pytorch" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunScript3" type="PythonConfigurationType" factoryName="Python">
+      <module name="PhaseFieldNet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="pytorch" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.RunScript0" />
+      <item itemvalue="Python.RunScript1" />
+      <item itemvalue="Python.RunScript2" />
+      <item itemvalue="Python.RunScript3" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69f06a2e-e075-4f1f-8925-28211e19f97d" name="Changes" comment="" />
+      <created>1731918731711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731918731711</updated>
+      <workItem from="1731918732726" duration="17070000" />
+      <workItem from="1732010735784" duration="777000" />
+      <workItem from="1732011520582" duration="8000" />
+      <workItem from="1732011538945" duration="13153000" />
+      <workItem from="1732106481018" duration="3721000" />
+      <workItem from="1732480846034" duration="2889000" />
+      <workItem from="1732483872465" duration="14926000" />
+      <workItem from="1732567216112" duration="964000" />
+      <workItem from="1732765090621" duration="5000" />
+      <workItem from="1732765102609" duration="12000" />
+      <workItem from="1732765345288" duration="10000" />
+      <workItem from="1732903897716" duration="3074000" />
+      <workItem from="1732911303920" duration="27201000" />
+      <workItem from="1732999179592" duration="8241000" />
+      <workItem from="1733039613684" duration="6792000" />
+      <workItem from="1733095843263" duration="10000" />
+      <workItem from="1733140600841" duration="6993000" />
+      <workItem from="1733150993229" duration="184000" />
+      <workItem from="1733151279786" duration="6000" />
+      <workItem from="1733151296310" duration="16875000" />
+      <workItem from="1733233230739" duration="5172000" />
+      <workItem from="1733246997923" duration="15986000" />
+      <workItem from="1733349590652" duration="1949000" />
+      <workItem from="1733352121741" duration="6332000" />
+      <workItem from="1733405466233" duration="12731000" />
+      <workItem from="1733557048829" duration="5541000" />
+      <workItem from="1733583489891" duration="16419000" />
+      <workItem from="1733859258781" duration="7356000" />
+      <workItem from="1733995059967" duration="7899000" />
+      <workItem from="1734011167665" duration="991000" />
+      <workItem from="1734029966470" duration="25769000" />
+      <workItem from="1734205412700" duration="7689000" />
+      <workItem from="1734644992163" duration="5017000" />
+      <workItem from="1734788130789" duration="2312000" />
+      <workItem from="1734863751114" duration="9000" />
+      <workItem from="1734863775073" duration="9221000" />
+      <workItem from="1734880034791" duration="57000" />
+      <workItem from="1734880213539" duration="15000" />
+      <workItem from="1734880329890" duration="30000" />
+      <workItem from="1734880369064" duration="31312000" />
+      <workItem from="1734983129135" duration="55000" />
+      <workItem from="1735034212628" duration="2274000" />
+      <workItem from="1735049036048" duration="5309000" />
+      <workItem from="1735126261413" duration="75000" />
+      <workItem from="1735356723104" duration="1208000" />
+      <workItem from="1735422837186" duration="1387000" />
+      <workItem from="1735719009558" duration="561000" />
+      <workItem from="1736101930735" duration="570000" />
+      <workItem from="1736102511675" duration="4000" />
+      <workItem from="1736161159525" duration="7670000" />
+      <workItem from="1736237907904" duration="111000" />
+      <workItem from="1736519480236" duration="1867000" />
+      <workItem from="1736638348608" duration="67000" />
+      <workItem from="1737234018105" duration="7800000" />
+      <workItem from="1737455079361" duration="673000" />
+      <workItem from="1737455769845" duration="3229000" />
+      <workItem from="1737462444241" duration="38822000" />
+      <workItem from="1737654826941" duration="1083000" />
+      <workItem from="1737975511334" duration="2776000" />
+      <workItem from="1737983775910" duration="4375000" />
+      <workItem from="1737988159324" duration="421000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1732484343908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732484343908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added TransformerFNO">
+      <option name="closed" value="true" />
+      <created>1732497990642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732497990642</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added the connection between time steps - the model development is finished">
+      <option name="closed" value="true" />
+      <created>1732910153380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732910153380</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished Allen-Cahn Problem">
+      <option name="closed" value="true" />
+      <created>1733176021525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733176021525</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Allen-Cahn 3D">
+      <option name="closed" value="true" />
+      <created>1733583274023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733583274023</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added save_vtk">
+      <option name="closed" value="true" />
+      <created>1733995237535</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733995237535</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added MATLAB codes for creating database">
+      <option name="closed" value="true" />
+      <created>1734788540933</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734788540933</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added CH2DNL">
+      <option name="closed" value="true" />
+      <created>1735126332032</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735126332032</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added SH2D">
+      <option name="closed" value="true" />
+      <created>1735719422931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735719422931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added PFC2D">
+      <option name="closed" value="true" />
+      <created>1736237977029</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736237977029</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added MBE2D">
+      <option name="closed" value="true" />
+      <created>1736638407705</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736638407705</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Last Update">
+      <option name="closed" value="true" />
+      <created>1737654990616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737654990616</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update Configs">
+      <option name="closed" value="true" />
+      <created>1737976577868</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737976577868</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added trained model for AC">
+      <option name="closed" value="true" />
+      <created>1737977259591</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737977259591</updated>
+    </task>
+    <task id="LOCAL-00015" summary="deleted archived codes">
+      <option name="closed" value="true" />
+      <created>1737977422522</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737977422522</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added trained model for PFC">
+      <option name="closed" value="true" />
+      <created>1737977565698</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737977565698</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added trained model for SH">
+      <option name="closed" value="true" />
+      <created>1737977606877</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737977606877</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated MBE configs">
+      <option name="closed" value="true" />
+      <created>1737988226903</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737988226903</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added trained model for MBE2D">
+      <option name="closed" value="true" />
+      <created>1737988450588</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1737988450589</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added trained model for CH">
+      <option name="closed" value="true" />
+      <created>1737988579868</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737988579868</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="added TransformerFNO" />
+    <MESSAGE value="added the connection between time steps - the model development is finished" />
+    <MESSAGE value="refactored" />
+    <MESSAGE value="Finished Allen-Cahn Problem" />
+    <MESSAGE value="Added Allen-Cahn 3D" />
+    <MESSAGE value="added save_vtk" />
+    <MESSAGE value="added MATLAB codes for creating database" />
+    <MESSAGE value="seperated the number of layers in fourier part and convolutional part" />
+    <MESSAGE value="added CH2DNL" />
+    <MESSAGE value="added SH2D" />
+    <MESSAGE value="added PFC2D" />
+    <MESSAGE value="added MBE2D" />
+    <MESSAGE value="Last Update" />
+    <MESSAGE value="Update Configs" />
+    <MESSAGE value="added trained model for AC, CH, SH and PFC" />
+    <MESSAGE value="added trained model for AC" />
+    <MESSAGE value="deleted archived codes" />
+    <MESSAGE value="added trained model for PFC" />
+    <MESSAGE value="added trained model for SH" />
+    <MESSAGE value="updated MBE configs" />
+    <MESSAGE value="added trained model for MBE2D" />
+    <MESSAGE value="added trained model for CH" />
+    <option name="LAST_COMMIT_MESSAGE" value="added trained model for CH" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SH2D.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SH2D.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SH2D.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SH2D.py</url>
+          <line>327</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SH2D.py</url>
+          <line>243</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AC2D_2.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AC2D_Net2D_2.py</url>
+          <line>371</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AC2D_Net2D_3.py</url>
+          <line>338</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilities.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilities.py</url>
+          <line>469</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilities.py</url>
+          <line>451</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D_Net2D_2.coverage" NAME="AC2D_Net2D_2 Coverage Results" MODIFIED="1732904114403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$networks.coverage" NAME="networks Coverage Results" MODIFIED="1733086051390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D_2.coverage" NAME="AC2D_2 Coverage Results" MODIFIED="1732483323689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_CH2DNL_FNO3d.coverage" NAME="config_CH2DNL_FNO3d Coverage Results" MODIFIED="1737954467303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$RunScript2.coverage" NAME="RunScript2 Coverage Results" MODIFIED="1737925287546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$THFNO.coverage" NAME="THFNO Coverage Results" MODIFIED="1732911474644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/networks" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_AC2D_FNO3d.coverage" NAME="config_AC2D_FNO3d Coverage Results" MODIFIED="1733233385695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$RunScript3.coverage" NAME="RunScript3 Coverage Results" MODIFIED="1737986527572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_CH2DNL_TNO2d.coverage" NAME="config_CH2DNL_TNO2d Coverage Results" MODIFIED="1735052490996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_CH2D_TNO2d.coverage" NAME="config_CH2D_TNO2d Coverage Results" MODIFIED="1734086207850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1733413325318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D_Net2D_3.coverage" NAME="AC2D_Net2D_3 Coverage Results" MODIFIED="1732974697103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$MBE2D.coverage" NAME="MBE2D Coverage Results" MODIFIED="1737600850097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$RunScript0.coverage" NAME="RunScript0 Coverage Results" MODIFIED="1737952875260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D.coverage" NAME="AC2D Coverage Results" MODIFIED="1737889718647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$RunScript1.coverage" NAME="RunScript1 Coverage Results" MODIFIED="1737986697770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$CH2DNL.coverage" NAME="CH2DNL Coverage Results" MODIFIED="1737889848496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_MBE2D_TNO2d.coverage" NAME="config_MBE2D_TNO2d Coverage Results" MODIFIED="1736261397712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_AC2D_FNO2d.coverage" NAME="config_AC2D_FNO2d Coverage Results" MODIFIED="1733393903488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D_Net2D_1.coverage" NAME="AC2D_Net2D_1 Coverage Results" MODIFIED="1732535211383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$config_AC2D.coverage" NAME="config_AC2D Coverage Results" MODIFIED="1733087276180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D_Net2D.coverage" NAME="AC2D_Net2D Coverage Results" MODIFIED="1732567473230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$main.coverage" NAME="main Coverage Results" MODIFIED="1737954673743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$fourier_3d.coverage" NAME="fourier_3d Coverage Results" MODIFIED="1732221600628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$SH2D.coverage" NAME="SH2D Coverage Results" MODIFIED="1737597892478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$PFC2D.coverage" NAME="PFC2D Coverage Results" MODIFIED="1737599682733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$CH2D.coverage" NAME="CH2D Coverage Results" MODIFIED="1737889824240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$post_processing.coverage" NAME="post_processing Coverage Results" MODIFIED="1733557098801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhaseFieldNet$AC2D_time.coverage" NAME="AC2D_time Coverage Results" MODIFIED="1737558395736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatlabCode" />
+  </component>
+</project>
