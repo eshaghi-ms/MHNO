@@ -2,16 +2,16 @@
 
 This repository contains the code and data for the paper:
 
-**Multi-Head Neural Operator for Modelling Interfacial Dynamics**  
-*Mohammad Sadegh Eshaghi, Navid Valizadeh, Cosmin Anitescu, Yizheng Wang, Xiaoying Zhuang, Timon Rabczuk*  
-📄 [arXiv:2507.17763](https://doi.org/10.48550/arXiv.2507.17763)
+**Multi-Head Neural Operator for Modelling Interfacial Dynamics**
+*Mohammad Sadegh Eshaghi, Navid Valizadeh, Cosmin Anitescu, Yizheng Wang, Xiaoying Zhuang, Timon Rabczuk*
+📄 [IJMS Publication](https://www.sciencedirect.com/science/article/pii/S0020740326002195) | [arXiv:2507.17763](https://doi.org/10.48550/arXiv.2507.17763)
 
 ---
 
 ## 📢 Availability
 
-🔒 **The code and data will be made publicly available after the journal review process is complete.**  
-Please ⭐ star this repository to get notified when the release is published.
+📦 **Data and Models**: [Download here](https://seafile.cloud.uni-hannover.de/d/9f6f5fafc17548c1837d/)
+📄 **Published in**: [International Journal of Mechanical Sciences](https://www.sciencedirect.com/science/article/pii/S0020740326002195)
 
 ---
 
@@ -31,18 +31,17 @@ We validate MHNO on a wide range of phase field models, including:
 ---
 
 ## 📁 Repository Structure
-- **AC2D/**, **CH2D/**, **SH2D/**, **PFC2D/**, **MBE2D/**, **AC2D/** – Problem-specific modules and datasets  
-- **configs/** – Experiment configuration files  
-- **data/** – Raw and preprocessed simulation data  
-- **MatlabCode/** – MATLAB scripts used for data creation 
-- **Result/** – Generated results, figures, and logs  
-- **comparision.py** – Script for benchmarking MHNO against other methods  
-- **hyperparameter\_*.py** – Utilities for sweeping, tuning, and reporting hyperparameters  
-- **main.py** – Entry point for training and evaluation  
-- **networks.py** – Neural network and operator definitions  
-- **training.py** – Training loop and checkpointing  
-- **post\_processing.py** – Metrics calculation and visualization  
-- **utilities.py** – Helper functions 
+- **configs/** – Configuration files for different problems (AC2D, AC3D, CH2D, CH2DNL, CH3D, SH2D, PFC2D, MBE2D) and neural operator architectures (FNO2d, FNO3d, TNO2d, TNO3d)
+- **MatlabCode/** – Scripts for data generation
+- **comparision.py** – Benchmarking MHNO against other methods
+- **hyperparameter_sweep.py** – Hyperparameter sweeping utilities
+- **hyperparameter_tuning.py** – Hyperparameter tuning experiments
+- **hyperparameter_result.py** – Analysis and reporting of hyperparameter results
+- **main.py** – Entry point for training and evaluation
+- **networks.py** – Neural operator architecture definitions (MHNO, FNO, etc.)
+- **training.py** – Training loop and checkpointing
+- **post_processing.py** – Metrics calculation and visualization
+- **utilities.py** – Helper functions and utilities 
 
 
 ---
@@ -64,8 +63,7 @@ If you use this work in your research, please cite:
 @article{eshaghi2025mhno,
   title={Multi-Head Neural Operator for Modelling Interfacial Dynamics},
   author={Eshaghi, Mohammad Sadegh and Valizadeh, Navid and Anitescu, Cosmin and Wang, Yizheng and Zhuang, Xiaoying and Rabczuk, Timon},
-  journal={arXiv preprint},
-  volume={arXiv:2507.17763},
+  journal={International Journal of Mechanical Sciences},
   year={2025},
-  doi={10.48550/arXiv.2507.17763}
+  doi={10.1016/j.ijmecsci.2025.109972}
 }
